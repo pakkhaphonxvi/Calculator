@@ -1,9 +1,11 @@
 package myCalculator
 
 func Plus(A int, B int) {
-	return A+B;
+	x =: A+B
+	return x;
 }
 
 func Minus(A int, B int) {
-	return A-B;
+	x =: A-B
+	return x;
 }
