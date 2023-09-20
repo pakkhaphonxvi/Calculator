@@ -3,13 +3,11 @@ package myCalculator
 import "fmt"
 
 func Plus(A int, B int) int{
-	x =: A+B;
-	return x;
+	return A+B;
 }
 
 func Minus(A int, B int) int{
-	x =: A-B;
-	return x;
+	return A-B;
 }
 
 func Out(m string) {
